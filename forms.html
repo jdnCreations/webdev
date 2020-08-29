@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Register</title>
+  </head>
+  <body>
+    <h2>Register</h2>
+    <form>
+      <label for="firstname">First Name</label>
+      <input type="text" name="firstname">
+      <label for="lastname">Last Name</label>
+      <input type="text" name="lastname">
+    <div>
+      <label for="male">Male</label>
+      <input type="radio" name="gender" value="male">
+      <label for="female">Female</label>
+      <input type="radio" name="gender" value="female">
+      <label for="other">Other</label>
+      <input type="radio" name="gender" value="other">
+    </div>
+
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <label for="password">Password:</label>
+      <input type="password" name="password" required pattern=".{5,15}" title="Password must be 5 to 15 characters long.">
+    </div>
+
+    <div>
+      <label for="birthmonth">Birthday:</label>
+      <select name="birthmonth">
+        <option value="jan">January</option>
+        <option value="feb">February</option>
+        <option value="mar">March</option>
+      </select>
+      <select name="birthday">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+      </select>
+      <select name="birthyear">
+        <option value="1990">1990</option>
+        <option value="1991">1991</option>
+        <option value="1992">1992</option>
+      </select>
+    </div>
+
+    <div>
+      <label for="termsagree">I agree to the terms & conditions</label>
+      <input type="checkbox" name="termsagree">
+    </div>
+      <input type="submit">
+
+    </form>
+  </body>
+</html>

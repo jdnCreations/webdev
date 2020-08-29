@@ -1,0 +1,39 @@
+/*element*/
+li {
+
+}
+
+/*class (can be used multiple times)*/
+.hello {
+
+}
+
+/*id (can only be used once on page)*/
+#name {
+
+}
+
+/*star (applies to everything)*/
+* {
+
+}
+
+/*descendant selector*/
+li a {
+
+}
+
+/*adjacent selectors*/
+h4 + ul {
+
+}
+
+/*attribute selectors*/
+a[href="<LINKHERE>"] {
+
+}
+
+/*nth of type (selects 3rd ul)*/
+ul:nth-of-type(3) {
+
+}
